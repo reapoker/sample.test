@@ -20,6 +20,7 @@ class UsersTableSeeder extends Seeder
         $user->email = 'reapoker@outlook.com';
         $user->password = bcrypt('nono7758521');
         $user->is_admin = true;
+        $user->activated = true;
         $user->save();
     }
 }
